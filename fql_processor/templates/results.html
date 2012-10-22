@@ -1,0 +1,20 @@
+<html>
+<body>
+	<div id="header">
+		<h2>QUERY RESULTS:</h2>
+	</div>
+
+	<div id="keys" style="width:100px;float:left;">
+		{% for key in keys %}
+			<b>{{ key }}:</b> <br>
+		{% endfor %}
+	</div>
+
+	<div id="keys" style="width:100px;float:left;">
+		{% for value in values %}
+			{{ value }} <br>
+		{% endfor %}
+	</div>
+
+</body>
+</html>
